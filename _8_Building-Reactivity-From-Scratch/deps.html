@@ -4,24 +4,24 @@
 
 class Dependency {
 	// constructor (value) {
-		// this.subscribers = new Set()
-		// this._value = value
+	// 	this.subscribers = new Set()
+	// 	this._value = value
 	// }
 
 	// get value() {
-		// this.depend()
-		// return this._value
+	// 	this.depend()
+	// 	return this._value
 	// }
 
 	// set value(newValue) {
-		// this._value = newValue
-		// this.notify()
+	// 	this._value = newValue
+	// 	this.notify()
 	// }
 
 	// depend() {
-		// if (activeEffect) {
-			// this.subscribers.add(activeEffect)
-		// }
+	// 	if (activeEffect) {
+	// 		this.subscribers.add(activeEffect)
+	// 	}
 	// }
 
 	// notify() {
@@ -40,10 +40,8 @@ function watchEffect(effect) {
 const dependency = new Dependency('hello')
 
 watchEffect(() => {
-	// dependency.depend()
 	// console.log(dependency.value)
 })
 
 // dependency.value = 'changed'
-// dependency.notify()
 </script>
